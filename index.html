@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -23,16 +23,16 @@
         <span class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tecnologias</a>
+              <a class="nav-link" href="#tecnologias">Tecnologias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfólio</a>
+              <a class="nav-link" href="#portfolio">Portfólio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </span>
@@ -47,9 +47,9 @@
           </div>
             
           <div class="redes-sociais">
-            <a href=""><button><i class="fas fa-at"></i></button></a>
-            <a href=""><button><i class="fab fa-github"></i></button></a>
-            <a href=""><button><i class="fab fa-linkedin-in"></i></button></a>
+            <a href="mailto:contato@gabrielcamargo.dev" target="_blank"><button><i class="fas fa-at"></i></button></a>
+            <a href="https://github.com/GabrielPCamargo" target="_blank"><button><i class="fab fa-github"></i></button></a>
+            <a href="https://www.linkedin.com/in/gabriel-pin%C3%B3s-camargo" target="_blank"><button><i class="fab fa-linkedin-in"></i></button></a>
           </div>
             
         </div>
@@ -59,7 +59,7 @@
             <div class="programando-img"></div>
         </div>
     </div>
-    <h3>Sobre mim</h3>
+    <h3 id="sobre">Sobre mim</h3>
     <div class="sobre container">
       
       <div class="row">
@@ -78,38 +78,37 @@
           <p class="texto-acredito">Acredito que poderei te ajudar a ter suas ideias na web atráves do desenvolvimento de websites profissionais</p>
         </div>
         <div class="col-md button-portfolio">
-          <button>Portfólio</button>
+          <a id="botao-portfolio" href="#portfolio"><button>Portfólio</button></a>
         </div>
       </div>
 
       <div class="incrivel"></div>
-      
 
     </div>
 
-    <div class="tecnologias">
+    <div class="tecnologias" id="tecnologias">
       <h3>Tecnologias Usadas</h3>
 
       <div class="p-5 container">
         <span>Usando Agora:</span>
         <div class="grid">
-          <img src="/img/icons/html.svg" alt="">
-          <img src="/img/icons/css.svg" alt="">
-          <img src="/img/icons/sass.svg" alt="">
-          <img src="/img/icons/js.svg" alt="">
-          <img src="/img/icons/bootstrap.svg" alt="">
-          <img src="/img/icons/git.svg" alt="">
-          <img src="/img/icons/figma.svg" alt="">
-          <img src="/img/icons/mysql.svg" alt="">
-          <img src="/img/icons/php.svg" alt="">
-          <img src="/img/icons/laravel.svg" alt="">
+          <a href="https://www.w3.org/TR/html5/"><img src="/img/icons/html.svg" alt=""></a>
+          <a href="https://www.w3.org/TR/css3-roadmap/"><img src="/img/icons/css.svg" alt=""></a>
+          <a href="https://sass-lang.com/"><img src="/img/icons/sass.svg" alt=""></a>
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="/img/icons/js.svg" alt=""></a>
+          <a href="https://getbootstrap.com/"><img src="/img/icons/bootstrap.svg" alt=""></a>
+          <a href="https://git-scm.com/"><img src="/img/icons/git.svg" alt=""></a>
+          <a href="https://www.figma.com/"><img src="/img/icons/figma.svg" alt=""></a>
+          <a href="https://www.mysql.com/"><img src="/img/icons/mysql.svg" alt=""></a>
+          <a href="https://www.php.net/"><img src="/img/icons/php.svg" alt=""></a>
+          <a href="https://laravel.com/"><img src="/img/icons/laravel.svg" alt=""></a>
         </div>
 
         <span>Aprendendo:</span>
         <div class="grid">
-          <img src="/img/icons/node.svg" alt="">
-          <img src="/img/icons/mongo.svg" alt="">
-          <img src="/img/icons/typescript.svg" alt="">
+          <a href="https://nodejs.org/en/"><img src="/img/icons/node.svg" alt=""></a>
+          <a href="https://www.mongodb.com/3"><img src="/img/icons/mongo.svg" alt=""></a>
+          <a href="https://www.typescriptlang.org/"><img src="/img/icons/typescript.svg" alt=""></a>
         </div>
 
         <span>Outras habilidades:</span>
@@ -123,13 +122,15 @@
       </div>
     </div>
 
-    <h3>Portfólio</h3>
+    <h3  id="portfolio">Portfólio</h3>
     <div class="portfolio">
     
       <h6>Assemap - Marcas e Patentes</h6>
       <p>Website institucional com blog personalizado</p>
 
-      <div><button>Acessar</button></div>
+      <div>
+        <a href="https://assemap.com.br" target="_blank"><button>Acessar</button></a>
+      </div>
       <img src="/img/assemap1.png" alt="">
       <img src="/img/assemap2.png" alt="">
 
@@ -142,34 +143,36 @@
 
       <h6>Projetos pequenos</h6>
       <p>Projetos que foram criados com objetivo de aprender e podem ser acessados pelo boão abaixo:</p>
-      <button>Projetos</button>
+      <a href="https://projetos.gabrielcamargo.dev"><button>Projetos</button></a>
     </div>
 
-    <div class="contato">
+    <div class="contato" id="contato">
       <h3>Contato</h3>
       <div>
         <p>Precisa me contatar? Envie uma mensagem abaixo:</p>
 
-        <form action="">
-          <input type="text" name="nome" placeholder="Digite seu nome *">
-          <input type="email" name="email" placeholder="Digite seu e-mail *">
+        <form id="form-contato">
+          <input type="text" name="nome" placeholder="Digite seu nome *" required>
+          <input type="email" name="email" placeholder="Digite seu e-mail *" required>
           <input type="tel" placeholder="Digite seu número de telefone">
-          <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite sua mensagem *"></textarea>
+          <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite sua mensagem *" required></textarea>
 
-          <button type="submit">Enviar</button>
+          <button id="#enviar" type="submit">Enviar</button>
         </form>
       </div> 
     </div>
 
     <footer>
       <div class="p-4">
-        <i class="fas fa-angle-double-up"></i>
-        <p>Voltar ao topo</p>
+        <a id="volta-topo" href="#topo" class="text-white">
+          <i class="fas fa-angle-double-up"></i>
+          <p>Voltar ao topo</p>
+        </a>
 
         <div class="redes-sociais">
-          <a href=""><button><i class="fas fa-at"></i></button></a>
-          <a href=""><button><i class="fab fa-github"></i></button></a>
-          <a href=""><button><i class="fab fa-linkedin-in"></i></button></a>
+          <a href="mailto:contato@gabrielcamargo.dev" target="_blank"><button><i class="fas fa-at"></i></button></a>
+          <a href="https://github.com/GabrielPCamargo" target="_blank"><button><i class="fab fa-github"></i></button></a>
+          <a href="https://www.linkedin.com/in/gabriel-pin%C3%B3s-camargo" target="_blank"><button><i class="fab fa-linkedin-in"></i></button></a>
         </div>
 
         <p class="copyright">&copy;2020 - Gabriel Camargo</p>
@@ -180,5 +183,8 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>

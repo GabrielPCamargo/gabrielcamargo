@@ -266,6 +266,10 @@ h3{
     min-height: 50px;
 }
 
+.contato input::-webkit-input-placeholder, .contato textarea::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+
 .contato button{
     background: inherit;
     border: 4px solid black;
@@ -362,6 +366,12 @@ footer{
 }
 
 @media (min-width: 992px){
+
+    h3{
+        font-size: 1.7rem;
+        padding: 1.5em;
+    }
+
     .navbar{
         padding: 0;
     }
@@ -455,8 +465,27 @@ footer{
     }
 
     .contato div{
-        padding: 10em;
-        padding-top: 3em;
+        padding: 4em 25%;
+
+    }
+
+    .contato input{
+        margin-bottom: 3em;
+    }
+
+    .contato p{
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;        
+    }
+
+    .contato button{
+        font-size: larger;
+        padding: 0.4em 1.5em;
     }
 }
 
